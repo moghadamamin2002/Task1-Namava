@@ -1,239 +1,274 @@
-@media(max-width:639px){
-    nav{
-        display: flex;
-        font-size:12px;
-    }
-    nav div{
+nav{
+    display: flex;
+    font-size:12px;
+}
+nav div{
 
-        display: flex;
-        margin-right:7px ;
-        margin-top:20px ;
-        padding-inline:3px;
-        padding-top: 7px;
-        
-    }
+    display: flex;
+    margin-right:7px ;
+    margin-top:20px ;
+    padding-inline:3px;
+    padding-top: 7px;
     
-    #logo-namava{
-    margin: 22px 20px 0 18px;
-    padding-top: 8px;
-    }
+}
 
-    #article-1{
-        display: flex;
-        margin-top: 50px;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        
-    }
-    
-    #section-1{
-        padding-inline: 10px;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    
-    #article-p-1{
-        font-size: 13px;
-        color: #AAAAAA;
-        width: 331px;
-        height: 168px;
-        font-weight: 350;
-        margin-top: 24px;
-        text-align: center;
-        
-    }
-    
-    #article-h1-1{
-        font-size: 20px;
-        color: #FFFFFF;
-        text-align: center;
-    
-    }
+#logo-namava{
+margin: 22px 20px 0 18px;
+padding-top: 8px;
+}
 
-    #aside-1{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #frame-3{
-        width: 360px;
-        height: 190px;
-    }
-
-  
-
-
-    #article-2{
-        display: block;
-        margin-top: 150px;
-        gap: 50px;
-        
-        
-    }   
-    
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    #section-2{
-        font-size: 14px;
-        font-weight: 400;
-    }
-    
-    #section-3{
-        font-size: 14px;
-        font-weight: 400;
-    }
-    
-    #price-1{
-        text-decoration:line-through;
-        text-decoration-color: #D95C5C;
-        text-decoration-thickness:2px;
-        font-size: 15px;
-    
-    
-    }
-    
-    #price-2{
-        text-decoration:line-through;
-        text-decoration-color: #D95C5C;
-        text-decoration-thickness:2px;
-        font-size: 15px;
-    
-    }
-    
-    .ticket{
-        width: 170px;
-        height: 70px;
-        
-    }
-    
-    .ticket-label{
-        text-align: center;
-        font-size: 14px;
-    
-    }
-    
-    #total-price-container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-
-    #total-price{
-        
-        width: 380px;
-        height: 220px;
-        position: relative;
-        
-    }
-    
-    #frame-total-price{
-        width: 332px;
-        height: 138px;
-        position: relative;
-        margin-right: 16px;
-    }
-    
-    .container-info{
-        display: flex;
-        gap: 100px;
-        position: absolute;
-        top: 5px;
-        background-color: #121212;
-        margin-right: 30px;
-    }
-    
-    .info{
+#article-1{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column-reverse;
+    align-items: center;
     justify-content: center;
-    text-align: start;
-    top: 0px;
-    background-color: #121212;
+    
+}
+
+#section-1{
+    padding-inline: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#article-p-1{
+    font-size: 13px;
+    color: #AAAAAA;
+    width: 331px;
+    height: 168px;
+    font-weight: 350;
+    margin-top: 24px;
+    text-align: center;
+    
+}
+
+#article-h1-1{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+#aside-1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#frame-3{
+    width: 360px;
+    height: 190px;
+}
+
+
+
+
+#article-2{
+    display: block;
+    margin-top: 40px;
+    gap: 50px;
     
     
-    }
-    
-    .value{
-        justify-content: center;
-        text-align: end;
-        background-color: #121212;
-    
-    }
-    
-    .digikala-container{
-        position: relative;
-    }
-    #digikala-frame{
-        width: 332px;
-        height: 42px;
-        margin-top: 10px;
-        position: relative;
-        margin-right: 16px;
-    }
-    #digikala{
-        width: 70px;
-        height: 17px;
-        position: absolute;
-        background-color: #FFFFFF;
-        top: 21px;
-        right: 170px;
-        margin-right: 16px;
-    }
-    
-    .first-price-info{
-        font-size: 14px;
-        background-color: #121212;
-    
-    
-    }
-    
-    .off-info{
-        font-size: 12px;
-        width: 64px;
-        height: 23px;
-        background-color: #D95C5C;
-        display:flex;
-        justify-content: center;
-        text-align: center;
-        border-radius: 5px;
-    
-        
-    }
-    
-    .price-for-you-info{
-        font-size: 14px;
-        background-color: #121212;
-    
-    }
-    
-    .first-price{
-        font-size: 14px;
-        text-decoration:line-through;
-        text-decoration-color: #D95C5C;
-        text-decoration-thickness:2px;
-        background-color: #121212;
-    
-    
-    }
-    
-    .off{
-    
-        font-size: 14px;
-        background-color: #121212;
-    
-    
-    }
-    
-    .price-for-you{
-        font-size: 15px;
-        background-color: #121212;
-    
-    }    
 }   
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-2{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#section-3{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#price-1{
+    text-decoration:line-through;
+    text-decoration-color: #D95C5C;
+    text-decoration-thickness:2px;
+    font-size: 15px;
+}
+
+#price-2{
+    text-decoration:line-through;
+    text-decoration-color: #D95C5C;
+    text-decoration-thickness:2px;
+    font-size: 15px;
+
+}
+
+.ticket{
+    width: 170px;
+    height: 70px;
+    
+}
+
+.ticket-label{
+    text-align: center;
+    font-size: 14px;
+
+}
+
+#total-price-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#total-price{
+    
+    width: 332px;
+    height: 138px;
+    position: relative;
+    
+    
+}
+
+#frame-total-price{
+    width: 332px;
+    height: 138px;
+    position: relative;
+    /* margin-right: 16px; */
+    
+}
+
+.container-info{
+    display: flex;
+    gap: 100px;
+    position: absolute;
+    top: 5px;
+    width: 300px;
+    height: 100px;
+    margin-right: 10px;
+    
+    
+    
+}
+
+.info{
+justify-content: center;
+text-align: start;
+top: 0px;
+
+
+
+
+}
+
+.value{
+    justify-content: center;
+    text-align: end;
+    background-color: #121212;
+
+}
+
+.digikala-container{
+    position: relative;
+}
+#digikala-frame{
+    width: 332px;
+    height: 42px;
+    margin-top: 10px;
+    position: relative;
+    /* margin-right: 16px; */
+}
+#digikala{
+    width: 70px;
+    height: 17px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 21px;
+    right: 170px;
+    /* margin-right: 16px; */
+}
+
+.first-price-info{
+    font-size: 14px;
+    background-color: #121212;
+
+
+}
+
+.off-info{
+    font-size: 12px;
+    width: 64px;
+    height: 23px;
+    background-color: #D95C5C;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+
+    
+}
+
+.price-for-you-info{
+    font-size: 14px;
+    background-color: #121212;
+
+}
+
+.first-price{
+    font-size: 14px;
+    text-decoration:line-through;
+    text-decoration-color: #D95C5C;
+    text-decoration-thickness:2px;
+    background-color: #121212;
+
+
+}
+
+.off{
+
+    font-size: 14px;
+    background-color: #121212;
+
+
+}
+
+.price-for-you{
+    font-size: 15px;
+    background-color: #121212;
+
+}    
+
+#article-3{
+    display: block;
+    margin-top: 200px;
+}
+
+#article-3-1,#article-3-2 ,#article-3-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#namava-tv-img{
+
+    width: 560px;
+    height: 285px;
+}
+
+#intro-namava-tv{
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+#explain-namava-tv{
+    font-size: 14px;
+    color: #AAAAAA;
+    width: 640px;
+    height: 360px;
+} 
